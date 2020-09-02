@@ -144,4 +144,4 @@ footer { background: #888888; -webkit-box-shadow: 0 -1px 0 rgba(0,0,0,0.55), ins
 .flickr ul li img { width: 67px; height: 67px; border: #111 solid 1px; }
 .flickr ul li img:hover { opacity: 0.2 }
 .footer-bottom { background: rgba(0, 0, 0, 0.55); overflow: hidden; }
-.footer-bottom p { width: 1000px; margin: 0 auto; padding: 10px 0; }
+.footer-bottom p { color: #00FF00 width: 1000px; margin: 0 auto; padding: 10px 0; }
