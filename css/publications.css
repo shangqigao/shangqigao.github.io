@@ -537,7 +537,6 @@ a.readmore {
 	font-size: 40px;
 	color: #aeaeae
 }
-
 .dtxw li:nth-child(7)::before {
 	content: "07";
 	position: absolute;
@@ -546,7 +545,6 @@ a.readmore {
 	font-size: 40px;
 	color: #aeaeae
 }
-
 .dtxw li:nth-child(8)::before {
 	content: "08";
 	position: absolute;
@@ -555,7 +553,6 @@ a.readmore {
 	font-size: 40px;
 	color: #aeaeae
 }
-
 .dtxw li:nth-child(9)::before {
 	content: "09";
 	position: absolute;
@@ -564,7 +561,6 @@ a.readmore {
 	font-size: 40px;
 	color: #aeaeae
 }
-
 .dtxw li:nth-child(10)::before {
 	content: "10";
 	position: absolute;
