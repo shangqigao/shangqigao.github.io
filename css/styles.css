@@ -7,6 +7,7 @@ h1, h2, h3, h4, h5, h6 { font-weight: normal; }
 h1 { font: 24px "微软雅黑", "Microsoft YaHei", Arial, Helvetica, sans-serif }
 p { word-wrap: break-word; }
 ul, ol { list-style: none; }
+strong { color: #000BFF; font-size: 120%;}
 a { color: #008080; text-decoration: none; transition: All 1s ease; -webkit-transition: All 1s ease; -moz-transition: All 1s ease; -ms-transition: All 1s ease; -o-transition: All 1s ease; }
 a:hover { color: #000BFF; }
 .blank { height: 5px; overflow: hidden; width: 100%; margin: auto; clear: both }
@@ -48,11 +49,11 @@ header nav ul li a:hover, #nav_current { color: #000000; background: #DDDDDD; bo
 .ci:hover { border: 2px solid #B9B9B9; }
 .arrow_box h2.title { padding: 0 0 0 20px; font: 16px/50px "微软雅黑", "Microsoft YaHei", Arial, Helvetica, sans-serif }
 .arrow_box h2 a:hover { padding-left: 20px }
-.textinfo { overflow: auto;height: 130px;text-indent: 0px; }
-.arrow_box img { width: 150px; padding: 4px; float: left; -webkit-transition: All 1s ease; -moz-transition: All 1s ease; -ms-transition: All 1s ease; -o-transition: All 1s ease; border-radius: 4px; margin: 0 20px 20px; }
+.textinfo { overflow: visible;text-indent: 0px; }
+.arrow_box img { padding: 4px; float: left; -webkit-transition: All 1s ease; -moz-transition: All 1s ease; -ms-transition: All 1s ease; -o-transition: All 1s ease; border-radius: 4px; margin: 0 20px 20px; }
 .arrow_box img:hover { opacity: 0.6; }
-.arrow_box p { line-height: 24px; padding: 0 20px 20px }
-.arrow_box p:hover { text-shadow: 1px 1px 1px #000; }
+.arrow_box p { line-height: 150%; padding: 0 20px 10px }
+.arrow_box p:hover { font-weight: bold; }
 .details { background: rgba(1,1,1,0.3); border-radius: 0 0 6px 6px; padding: 0 10px }
 .details li { line-height: 26px; display: inline; font-size: 11px; margin-right: 10px; }
 .details li a { color: #000000 }
