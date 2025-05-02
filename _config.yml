@@ -1,0 +1,12 @@
+title: "Shangqi Gao (高尚奇)"
+description: "Researcher in explainable AI for data analysis"
+url: "https://shangqigao.github.io"
+
+# Theme settings
+remote_theme: "mmistakes/minimal-mistakes"
+plugins:
+  - jekyll-include-cache
+
+# Optional: Enable math, syntax, etc.
+markdown: kramdown
+highlighter: rouge
