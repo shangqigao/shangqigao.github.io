@@ -9,6 +9,7 @@ related_posts: false
 **We got MICCAI2023 MedIA Best Paper Award**
 
 ---
+
 Congratulations&#10071;&#10071;&#10071; Delighted to share our paper [BayeSeg: Bayesian Modeling for Medical Image Segmentation with Interpretable Generalizability](https://doi.org/10.1016/j.media.2023.102889) got **Elsevier-MedIA 1st Prize & Medical Image Analysis MICCAI Best Paper Award** in MICCAI2023.
 
 <div class="row">

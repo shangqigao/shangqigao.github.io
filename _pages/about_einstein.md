@@ -6,4 +6,4 @@ My PhD thesis is "Deep Image Decomposition and Reconstruction". This dissertatio
 
 My MSc thesis is "Regularization-Based Approaches for Tensor Completion". This dissertation chronicles regularization approaches for solving inverse problems in tensor completion as well as their applications in color images, color videos, and magnetic resonance images.
 
-I contribute to the peer review for Cancer Discovery (*IF: 30.6*), Nature Communications (*IF: 14.7*), Medical Image Analysis (*IF: 10.7*), IEEE TMI (*IF: 10.6*), IEEE TNNLS (*IF: 10.2*), Neural Networks, ICCV, ECCV, and MICCAI.
+I contribute to the peer review for Cancer Discovery (_IF: 30.6_), Nature Communications (_IF: 14.7_), Medical Image Analysis (_IF: 10.7_), IEEE TMI (_IF: 10.6_), IEEE TNNLS (_IF: 10.2_), Neural Networks, ICCV, ECCV, and MICCAI.
