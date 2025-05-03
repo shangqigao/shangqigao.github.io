@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-publications",
           title: "Publications",
-          description: "Check the most up-to-date lists on Google Scholar",
+          description: "Books, Journal and conference papers",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
