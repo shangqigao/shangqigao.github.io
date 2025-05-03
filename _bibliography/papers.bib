@@ -12,7 +12,15 @@
   url = {https://www.sciencedirect.com/science/article/pii/S1361841523001494},
   author = {Shangqi Gao and Hangqi Zhou and Yibo Gao and Xiahai Zhuang},
   keywords = {Image segmentation, Interpretation and generalization, Statistical modeling, Variational Bayes},
-  abstract = {Due to the cross-domain distribution shift aroused from diverse medical imaging systems, many deep learning segmentation methods fail to perform well on unseen data, which limits their real-world applicability. Recent works have shown the benefits of extracting domain-invariant representations on domain generalization. However, the interpretability of domain-invariant features remains a great challenge. To address this problem, we propose an interpretable Bayesian framework (BayeSeg) through Bayesian modeling of image and label statistics to enhance model generalizability for medical image segmentation. Specifically, we first decompose an image into a spatial-correlated variable and a spatial-variant variable, assigning hierarchical Bayesian priors to explicitly force them to model the domain-stable shape and domain-specific appearance information respectively. Then, we model the segmentation as a locally smooth variable only related to the shape. Finally, we develop a variational Bayesian framework to infer the posterior distributions of these explainable variables. The framework is implemented with neural networks, and thus is referred to as deep Bayesian segmentation. Quantitative and qualitative experimental results on prostate segmentation and cardiac segmentation tasks have shown the effectiveness of our proposed method. Moreover, we investigated the interpretability of BayeSeg by explaining the posteriors and analyzed certain factors that affect the generalization ability through further ablation studies. Our code is released via https://zmiclab.github.io/projects.html.}
+  abstract = {Due to the cross-domain distribution shift aroused from diverse medical imaging systems, many deep learning segmentation methods fail to perform well on unseen data, which limits their real-world applicability. Recent works have shown the benefits of extracting domain-invariant representations on domain generalization. However, the interpretability of domain-invariant features remains a great challenge. To address this problem, we propose an interpretable Bayesian framework (BayeSeg) through Bayesian modeling of image and label statistics to enhance model generalizability for medical image segmentation. Specifically, we first decompose an image into a spatial-correlated variable and a spatial-variant variable, assigning hierarchical Bayesian priors to explicitly force them to model the domain-stable shape and domain-specific appearance information respectively. Then, we model the segmentation as a locally smooth variable only related to the shape. Finally, we develop a variational Bayesian framework to infer the posterior distributions of these explainable variables. The framework is implemented with neural networks, and thus is referred to as deep Bayesian segmentation. Quantitative and qualitative experimental results on prostate segmentation and cardiac segmentation tasks have shown the effectiveness of our proposed method. Moreover, we investigated the interpretability of BayeSeg by explaining the posteriors and analyzed certain factors that affect the generalization ability through further ablation studies. Our code is released via https://zmiclab.github.io/projects.html.},
+  selected={true},
+  award={MedIA Best Paper Award},
+  preview={bayeseg_demo.png},
+  bibtex_show={true},
+  dimensions={true},
+  google_scholar_id={roLk4NBRz8UC},
+  video={https://www.bilibili.com/video/BV1it421p7qE/},
+  html={https://github.com/obiyoag/BayeSeg},
 }
 
 @ARTICLE{9744488,
@@ -24,7 +32,11 @@
   number={2},
   pages={1405-1423},
   keywords={Image restoration;Bayes methods;Computational modeling;Mathematical models;Superresolution;Task analysis;Image denoising;Image super-resolution;variational inference;neural network;generative learning},
-  doi={10.1109/TPAMI.2022.3163307}
+  abstract={Modeling statistics of image priors is useful for image super-resolution, but little attention has been paid from the massive works of deep learning-based methods. In this work, we propose a Bayesian image restoration framework, where natural image statistics are modeled with the combination of smooth- ness and sparsity priors. Concretely, firstly we consider an ideal image as the sum of a smoothness component and a sparsity residual, and model real image degradation including blurring, downscaling, and noise corruption. Then, we develop a variational Bayesian approach to infer their posteriors. Finally, we implement the variational approach for single image super-resolution (SISR) using deep neural networks, and propose an unsupervised training strategy. The experiments on three image restoration tasks, i.e., ideal SISR, realistic SISR, and real-world SISR, demonstrate that our method has superior model generalizability against varying noise levels and degradation kernels and is effective in unsupervised SISR. The code and resulting models are released via https://zmiclab.github.io/projects.html.},
+  doi={10.1109/TPAMI.2022.3163307},
+  selected={true},
+  preview={bayesr_demo.png},
+  bibtex_show={true},
 }
 
 @ARTICLE{9303377,
@@ -36,5 +48,9 @@
   number={6},
   pages={3224-3238},
   keywords={Image restoration;Image reconstruction;Image denoising;Neural networks;Task analysis;Matrix decomposition;Noise reduction;Image restoration;rank one;super resolution;neural network},
-  doi={10.1109/TPAMI.2020.3046476}
+  abstract={The principal rank-one (RO) components of an image represent the self- similarity of the image, which is an important property for image restoration. However, the RO components of a corrupted image could be decimated by the procedure of image denoising. We suggest that the RO property should be utilized and the decimation should be avoided in image restoration. To achieve this, we propose a new framework comprised of two modules, i.e., the RO decomposition and RO reconstruction. The RO decomposition is devel- oped to decompose a corrupted image into the RO components and residual. This is achieved by successively applying RO projections to the image or its residuals to extract the RO components. The RO projections, based on neural networks, extract the closest RO component of an image. The RO reconstruction is aimed to reconstruct the important information, respec- tively from the RO components and residual, as well as to restore the image from this reconstructed information. Experimental results on four tasks, i.e., noise-free image super-resolution (SR), realistic image SR, gray-scale image denoising, and color image denoising, show that the method is effective and efficient for image restoration, and it delivers superior performance for real- istic image SR and color image denoising.},
+  doi={10.1109/TPAMI.2020.3046476},
+  selected={true},
+  preview={ronet_demo.png},
+  bibtex_show={true},
 }

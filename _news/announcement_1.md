@@ -1,6 +1,7 @@
 ---
 layout: post
-date: 2015-08-12
+title: Guest lecture on Image Processing and Analysis
+date: 2024-08-12
 inline: true
 related_posts: false
 ---
