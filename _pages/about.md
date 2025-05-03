@@ -9,7 +9,7 @@ profile:
   image: gsqProfile.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Department of Oncology, Early Cancer Institute</p>
+    <p>Early Cancer Institute</p>
     <p>University of Cambridge</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
@@ -20,10 +20,10 @@ announcements:
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
-latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+# latest_posts:
+#   enabled: true
+#   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
+#   limit: 3 # leave blank to include all the blog posts
 ---
 
 I am a Research Associate at University of Cambridge, and working with [Dr Mireia Crispin](https://www.oncology.cam.ac.uk/research/our-research/crispin) and [Prof James Brenton](https://crukcambridgecentre.org.uk/users/jdb1003). Before that, I was a Postdoctoral Research Assistant at University of Oxford, and working with [Prof. Clare Verrill](https://www.nds.ox.ac.uk/team/clare-verrill) and [Prof. Jens Rittscher](https://www.ndm.ox.ac.uk/team/jens-rittscher). I got my PhD in statistics from Fudan University under the supervision of [Prof. Xiahai Zhuang](https://zmiclab.github.io/zxh/), MSc in applied mathematics from Wuhan University under the superevision of Prof. Qibin Fan, and BSc in mathematics and applied mathematics from Northwestern Polytechnical University under the supervision of Prof. Pengcheng Niu. I got the [Elsevier-MedIA 1st Prize & Medical Image Analysis MICCAI Best Paper Award](https://miccai.org/index.php/about-miccai/awards/medical-image-analysis-best-paper-award/#:~:text=The%20MICCAI%20MedIA%20Best%20Paper,the%20award%20between%20two%20winners.) in 2023. I am serving as the president of [MICCAI SIG-xMedIA](https://miccai.org/index.php/special-interest-groups/sig-xmedia/).
