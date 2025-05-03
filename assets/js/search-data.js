@@ -71,8 +71,22 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-miccai-sig-xmedia-thrilled-to-announce-we-establish-the-mccai-special-interest-group-on-explainable-ai-for-medical-image-analysis-sig-xmedia-i-am-serving-as-the-president-of-sig-xmedia-if-you-have-any-interest-in-xmedia-welcome-to-join-our-group",
-          title: 'MICCAI SIG-xMedIA 🚀🚀🚀 Thrilled to announce we establish the MCCAI Special Interest Group...',
+            },},{id: "news-our-paper-has-been-selected-to-be-highligted-in-the-miccai-2022-special-issue-in-medical-image-analysis-wonderful-our-conference-paper-joint-modeling-of-image-and-label-statistics-for-enhancing-model-generalizability-of-medical-image-segmentation-has-been-selected-as-one-of-the-best-papers-of-miccai-2022-to-be-highligted-in-the-miccai-2022-special-issue-in-medical-image-analysis-thanks-to-the-contributions-of-hangqi-zhou-and-yibo-gao",
+          title: 'Our paper has been selected to be highligted in the MICCAI 2022 Special...',
+          description: "",
+          section: "News",},{id: "news-i-got-a-postdoctoral-research-assistant-position-in-university-of-oxford-thanks-to-prof-clare-verrill-i-got-an-offer-on-postdoctoral-research-assistant-in-computational-pathology-i-look-forward-to-joining-university-of-oxford-and-doing-a-project-on-urological-cancer-pathology-ai-beyond-prostate",
+          title: 'I got a Postdoctoral Research Assistant position in University of Oxford Thanks to...',
+          description: "",
+          section: "News",},{id: "news-i-got-a-research-associate-position-in-univeersity-of-cambridge-thanks-to-dr-mireia-crispin-ortuzar-i-got-an-offer-on-postdoctoral-research-associate-in-cancer-imaging-i-look-forward-to-joining-university-of-cambridge-and-doing-projects-on-the-integration-of-machine-learning-and-multi-omics-data-analysis-for-pan-cancer",
+          title: 'I got a Research Associate position in Univeersity of Cambridge ❗❗❗ Thanks to...',
+          description: "",
+          section: "News",},{id: "news-we-got-media-miccai-best-paper-award-2023",
+          title: 'We got MedIA MICCAI Best Paper Award 2023',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_6/";
+            },},{id: "news-we-founded-miccai-sig-xmedia-thrilled-to-announce-we-establish-the-mccai-special-interest-group-on-explainable-ai-for-medical-image-analysis-sig-xmedia-i-am-serving-as-the-president-of-sig-xmedia-if-you-have-any-interest-in-xmedia-welcome-to-join-our-group",
+          title: 'We founded MICCAI SIG-xMedIA 🚀🚀🚀 Thrilled to announce we establish the MCCAI Special...',
           description: "",
           section: "News",},{id: "news-flash-talk-on-bayesian-modeling-for-medical-image-segmentation-thanks-to-the-organizers-of-robust-cancer-early-detection-systems-under-distribution-shifts-and-uncertainty-workshop-it-was-a-wonderful-opportunity-to-give-a-talk-on-bayesian-modeling-for-medical-image-segmentation",
           title: 'Flash talk on Bayesian Modeling for Medical Image Segmentation 🌈🌈🌈 Thanks to the...',
@@ -82,6 +96,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_1/";
+            },},{id: "news-",
+          title: '',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_4/";
             },},{
         id: 'social-github',
         title: 'GitHub',
