@@ -2,25 +2,38 @@
   type: map
   contents:
     - name: Full Name
-      value: Shangqi Gao
-    - name: Date of Birth
-      value: 6th Dec 1993
-    - name: Languages
-      value: English, Chinese
+      value: Dr Shangqi Gao
+    - name: Address
+      value: Early Cancer Institute CB2 0XZ, Cambridge, UK
+    - name: Research Interest
+      value: Inverse Problems, Medical Image Analysis, Explainable AI
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
+    - title: PhD in Statistics
       institution: Fudan University, Shanghai, China
       year: 2018 - 2022
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - PhD Thesis, Deep Image Decomposition and Reconstruction, Defensed in 05/2022
+        - Advisor, Prof. Xiahai Zhuang
+        - title: Deep Image Decomposition and Reconstruction
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
+            - This dissertation chronicles deep learning-based mathematical and statistical frameworks for solving inverse problems in photography and medical imaging as well as their applications in natural image super-resolution and medical image segmentation.
+    
+    - title: MSc in Applied Mathematics
+      institution: Wuhan University, Wuhan, China
+      year: 2015 - 2018
+      description:
+        - MSc Thesis, Regularization-Based Approaches for Tensor Completion, Defensed in 05/2018
+        - Advisor, Prof. Qibin Fan
+        - title: Regularization-Based Approaches for Tensor Completion
+          contents:
+            - This dissertation chronicles regularization approaches for solving inverse problems in tensor completion as well as their applications in color images, color videos, and magnetic resonance images.
+    
+    - title: BSc in Applied Mathematics
+      institution: Northwestern Polytechnical University, Xi'an, China
+      year: 2011 - 2015
 
 - title: Experience
   type: time_table
@@ -29,26 +42,15 @@
       institution: Early Cancer Institute, University of Cambridge
       year: 2024 - now
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
+        - Doing projects on AI for Cancer Imaging by integrating machine learning and multi-omics data analysis.
+        - Focusing on bridging various data modalities, including radiological imaging, genomics, liquid biopsies, and digital pathology, to identify novel biomarkers, uncover disease
 
     - title: Postdoctoral Research Assistant
       institution: Big Data Institute, University of Oxford
       year: 2023 - 2024
       description:
-        - Description 1.
-        - Description 2.
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/shangqigao/BayeSeg">BayeSeg</a>
-      year: 2022 - now
-      description: The official implementation of "Joint Modeling of Image and Label Statistics for Enhancing Model Generalizability of Medical Image Segmentation" via Pytorch
+        - Doing a project on Urological Cancer Pathology AI-Beyond Prostate by translating new AI solutions for pathology into the clinical environment.
+        - Focusing on graph neural networks, Bayesian deep learning, and uncertainty quantification in urological cancer grading.
 
 - title: Honors and Awards
   type: time_table
@@ -59,16 +61,35 @@
     - year: 2023
       items:
         - MedIA Best Paper Award, Elsevier & MedIA
+    - year: 2022
+      items:
+        - Excellent Graduate Award, Shanghai Higher Education Department
+        - Student Travel Award, MICCAI
+    - year: 2021
+      items:
+        - National Graduate Scholarship (Ph.D.), Fudan University
+    - year: 2017
+      items:
+        - National Graduate Scholarship (MSc), Wuhan University
+    - year: 2014
+      items:
+        - Meritorious Winner of MCM, SIAM
+    - year: 2013
+      items:
+        - Honorable Mention of MCM, CSIAM
 
-- title: Academic Interests
+- title: Academic Service
   type: nested_list
   contents:
-    - title: Inverse Problems
+    - title: Academic society
       items:
-        - Tensor Completion
-        - Image Denoising
-        - Image Super-resolution
-    - title: AI
+        - President, MICCAI Special Interest Group on Explainable AI for Medical Image Analysis, 2024 - now
+    - title: Peer Review
       items:
-        - Explainable AI for Medical Image Analysis
-        - Multi-omic Data Analysis
+        - Cancer Discovery
+        - Nature Communications
+        - Medical Image Analysis
+        - IEEE Transactions on Medical Imaging
+        - IEEE Transactions on Neural Network and Learning System
+        - Neural Networks
+        - ICCV, CVPR, ECCV, and MICCAI

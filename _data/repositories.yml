@@ -1,5 +1,7 @@
 github_users:
   - shangqigao
+  - zzhwfy
+  - obiyoag
 
 repo_description_lines_max: 2
 
@@ -8,3 +10,5 @@ github_repos:
   - shangqigao/RONet
   - shangqigao/BayeSR
   - shangqigao/BayeSeg
+  - zzhwfy/VSpSR
+  - obiyoag/BayeSeg

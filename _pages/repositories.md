@@ -2,7 +2,7 @@
 layout: page
 permalink: /repositories/
 title: Repositories
-description: Source code on my research works
+description: Source code associated with my research projects
 nav: true
 nav_order: 4
 ---

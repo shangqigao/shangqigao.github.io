@@ -1,3 +1,15 @@
-"Zhuang":
+"zhuang":
   - firstname: ["Xiahai", "X."]
     url: https://zmiclab.github.io/zxh/
+
+"gao":
+  - firstname: ["Yibo", "Y."]
+    url: https://obiyoag.github.io
+
+"zhou":
+  - firstname: ["Hangqi", "H."]
+    url: https://ieeexplore.ieee.org/author/37088955032
+
+"wu":
+  - firstname: ["Fuping", "F."]
+    url: https://fupingwu90.github.io/cv/

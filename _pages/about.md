@@ -2,15 +2,15 @@
 layout: about
 title: About
 permalink: /
-subtitle: Researcher, <a href='#'>Department of Oncology</a>, University of Cambridge
+subtitle: Researcher, <a href='#'>Early Cancer Institute</a> CB2 0XZ, University of Cambridge, UK
 
 profile:
   align: right
   image: gsqProfile.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Early Cancer Institute</p>
-    <p>University of Cambridge</p>
+    <p>shqgao at 163 dot com</p>
+    <p>shangqigao at google dot com</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -34,4 +34,4 @@ My PhD thesis is "Deep Image Decomposition and Reconstruction". This dissertatio
 
 My MSc thesis is "Regularization-Based Approaches for Tensor Completion". This dissertation chronicles regularization approaches for solving inverse problems in tensor completion as well as their applications in color images, color videos, and magnetic resonance images.
 
-I contribute to the peer review for Cancer Discovery (*IF: 30.6*), Nature Communications (*IF: 14.7*), Medical Image Analysis (*IF: 10.7*), IEEE TMI (*IF: 10.6*), IEEE TNNLS (*IF: 10.2*), Neural Networks, ICCV, ECCV, and MICCAI.
+I contribute to the peer review for *Cancer Discovery* (**IF: 30.6**), *Nature Communications* (**IF: 14.7**), *Medical Image Analysis* (**IF: 10.7**), *IEEE TMI* (**IF: 10.6**), *IEEE TNNLS* (**IF: 10.2**), Neural Networks, ICCV, ECCV, and MICCAI.

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Join SIG-xMedIA: Advancing Explainable AI in Medical Imaging
+title: Join SIG-xMedIA for Advancing Explainable AI in Medical Imaging
 date: 2025-05-03
 inline: false
 related_posts: false
