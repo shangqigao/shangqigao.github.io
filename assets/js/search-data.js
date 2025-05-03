@@ -74,15 +74,15 @@ ninja.data = [{
             },},{id: "news-miccai-sig-xmedia-thrilled-to-announce-we-establish-the-mccai-special-interest-group-on-explainable-ai-for-medical-image-analysis-sig-xmedia-i-am-serving-as-the-president-of-sig-xmedia-if-you-have-any-interest-in-xmedia-welcome-to-join-our-group",
           title: 'MICCAI SIG-xMedIA 🚀🚀🚀 Thrilled to announce we establish the MCCAI Special Interest Group...',
           description: "",
-          section: "News",},{id: "news-announcement-2",
-          title: 'Announcement_2',
+          section: "News",},{id: "news-flash-talk-on-bayesian-modeling-for-medical-image-segmentation-thanks-to-the-organizers-of-robust-cancer-early-detection-systems-under-distribution-shifts-and-uncertainty-workshop-it-was-a-wonderful-opportunity-to-give-a-talk-on-bayesian-modeling-for-medical-image-segmentation",
+          title: 'Flash talk on Bayesian Modeling for Medical Image Segmentation 🌈🌈🌈 Thanks to the...',
+          description: "",
+          section: "News",},{id: "news-guest-lecture-on-image-processing-and-analysis",
+          title: 'Guest lecture on Image Processing and Analysis',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-guest-lecture-on-image-processing-and-analysis-i-m-delighted-to-share-that-i-delivered-a-3-hour-lecture-to-the-international-students-participating-in-the-homerton-college-summer-programme-rather-than-focusing-on-ai-i-introduced-them-to-traditional-image-processing-and-analysis-it-was-my-first-time-giving-a-lecture-of-this-length-and-i-found-it-to-be-a-rewarding-challenge-i-m-grateful-to-mireia-crispin-and-homerton-college-at-the-university-of-cambridge-for-this-opportunity",
-          title: 'Guest lecture on Image Processing and Analysis 🌈🌈🌈 I’m delighted to share that,...',
-          description: "",
-          section: "News",},{
+              window.location.href = "/news/announcement_1/";
+            },},{
         id: 'social-github',
         title: 'GitHub',
         section: 'Socials',
