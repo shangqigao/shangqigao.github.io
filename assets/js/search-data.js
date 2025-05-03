@@ -11,14 +11,14 @@ ninja.data = [{
     },
   },{id: "nav-publications",
           title: "Publications",
-          description: "In reversed chronological order.",
+          description: "Check the most up-to-date lists on [Google Scholar](https://scholar.google.com/citations?user=D-jg5rUAAAAJ&amp;hl=en)",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
           },
         },{id: "nav-repositories",
           title: "Repositories",
-          description: "Source code on my research works",
+          description: "Source code associated with my research projects",
           section: "Navigation",
           handler: () => {
             window.location.href = "/repositories/";
@@ -39,7 +39,7 @@ ninja.data = [{
           },
         },{id: "nav-people",
           title: "People",
-          description: "members of the lab",
+          description: "Members colloborated with me",
           section: "Navigation",
           handler: () => {
             window.location.href = "/people/";
@@ -96,8 +96,8 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_1/";
-            },},{id: "news-",
-          title: '',
+            },},{id: "news-join-sig-xmedia-for-advancing-explainable-ai-in-medical-imaging",
+          title: 'Join SIG-xMedIA for Advancing Explainable AI in Medical Imaging',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_4/";
