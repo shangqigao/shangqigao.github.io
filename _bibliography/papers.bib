@@ -37,6 +37,9 @@
   selected={true},
   preview={bayesr_demo.png},
   bibtex_show={true},
+  dimensions={true},
+  google_scholar_id={zYLM7Y9cAGgC},
+  html={https://github.com/shangqigao/BayeSR}
 }
 
 @ARTICLE{9303377,
@@ -53,4 +56,153 @@
   selected={true},
   preview={ronet_demo.png},
   bibtex_show={true},
+  dimensions={true},
+  google_scholar_id={qjMakFHDy7sC},
+  html={https://github.com/shangqigao/RONet}
+}
+
+@InProceedings{Gao_2019_CVPR_Workshops,
+  author = {Gao, Shangqi and Zhuang, Xiahai},
+  title = {Multi-Scale Deep Neural Networks for Real Image Super-Resolution},
+  booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
+  month = {June},
+  year = {2019},
+  abstract={Single image super-resolution (SR) is extremely difficult if the upscaling factors of image pairs are unknown and different from each other, which is common in real image SR. To tackle the difficulty, we develop two multi-scale deep neural networks (MsDNN) in this work. Firstly, due to the high computation complexity in high-resolution spaces, we process an input image mainly in two different downscaling spaces, which could greatly lower the usage of GPU memory. Then, to reconstruct the details of an image, we design a multi-scale residual network (MsRN) in the downscaling spaces based on the residual blocks. Besides, we propose a multi-scale dense network based on the dense blocks to compare with MsRN. Finally, our empirical experiments show the robustness of MsDNN for image SR when the upscaling factor is unknown. According to the preliminary results of NTIRE 2019 image SR challenge, our team (ZXHresearch@fudan) ranks 21-st among all participants. The implementation of MsDNN is released at: https://github.com/shangqigao/gsq-image-SR.},
+  doi={10.1109/CVPRW.2019.00252},
+  html={https://github.com/shangqigao/gsq-image-SR},
+  preview={MsDNN.png}
+}
+
+@INPROCEEDINGS{10635485,
+  author={Gao, Shangqi and Browning, Lisa and Alham, Nasullah Khalid and Protheroe, Andrew and Edwards, Keir and Hamblin, Josh and Rittscher, Jens and Verrill, Clare},
+  booktitle={2024 IEEE International Symposium on Biomedical Imaging (ISBI)}, 
+  title={Characterising borderline areas in bladder tumour grading with Bayesian graph neural networks}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1-5},
+  keywords={Deep learning;Uncertainty;Computational modeling;Decision making;Bladder;Predictive models;Graph neural networks;computational pathology;tumour grading;uncertainty quantification;Bayesian graph neural networks},
+  doi={10.1109/ISBI56570.2024.10635485},
+  abstract={Urothelial carcinoma is the most common bladder cancer whose grading is critical to clinical decision-making. The WHO 2004 grading system classifies urothelial carcinoma into either low grade or high grade, but sometimes cases sit on the border between grades. This makes assessment by the pathologist challenging but could potentially lead to under-treatment or overtreatment. The aim of this study was to use deep learning methods to identify and characterise borderline areas in whole slide images (WSIs) from bladder tumour cases. We constructed graphs on WSIs to accelerate computation, where positive unlabeled learning was utilized, accommodating the partial annotation strategy deployed in clinics. We used Bayesian deep learning for carcinoma classification, where we modeled the borderline as prediction uncertainty quantified by Bayesian graph neural networks. Our experiments showed promising performance of our approach in carcinoma detection and classification, with a potential use case to highlight and better characterise areas on the border for high grade and low grade to pathologists.},
+  preview={isbi2024.png}
+}
+
+@article{WAN2023102875,
+  title = {Multi-target landmark detection with incomplete images via reinforcement learning and shape prior embedding},
+  journal = {Medical Image Analysis},
+  volume = {89},
+  pages = {102875},
+  year = {2023},
+  issn = {1361-8415},
+  doi = {https://doi.org/10.1016/j.media.2023.102875},
+  url = {https://www.sciencedirect.com/science/article/pii/S1361841523001354},
+  author = {Kaiwen Wan and Lei Li and Dengqiang Jia and Shangqi Gao and Wei Qian and Yingzhi Wu and Huandong Lin and Xiongzheng Mu and Xin Gao and Sijia Wang and Fuping Wu and Xiahai Zhuang},
+  keywords = {Incomplete image, Shape prior, Landmark detection, Multi-agent reinforcement learning},
+  abstract = {Medical images are generally acquired with limited field-of-view (FOV), which could lead to incomplete regions of interest (ROI), and thus impose a great challenge on medical image analysis. This is particularly evident for the learning-based multi-target landmark detection, where algorithms could be misleading to learn primarily the variation of background due to the varying FOV, failing the detection of targets. Based on learning a navigation policy, instead of predicting targets directly, reinforcement learning (RL)-based methods have the potential to tackle this challenge in an efficient manner. Inspired by this, in this work we propose a multi-agent RL framework for simultaneous multi-target landmark detection. This framework is aimed to learn from incomplete or (and) complete images to form an implicit knowledge of global structure, which is consolidated during the training stage for the detection of targets from either complete or incomplete test images. To further explicitly exploit the global structural information from incomplete images, we propose to embed a shape model into the RL process. With this prior knowledge, the proposed RL model can not only localize dozens of targets simultaneously, but also work effectively and robustly in the presence of incomplete images. We validated the applicability and efficacy of the proposed method on various multi-target detection tasks with incomplete images from practical clinics, using body dual-energy X-ray absorptiometry (DXA), cardiac MRI and head CT datasets. Results showed that our method could predict whole set of landmarks with incomplete training images up to 80% missing proportion (average distance error 2.29 cm on body DXA), and could detect unseen landmarks in regions with missing image information outside FOV of target images (average distance error 6.84 mm on 3D half-head CT). Our code will be released via https://zmiclab.github.io/projects.html.},
+  preview={landmark_detection_media2023.png}
+}
+
+@InProceedings{Gao2022miccai,
+  author={Gao, Shangqi and Zhou, Hangqi and Gao, Yibo and Zhuang, Xiahai},
+  editor={Wang, Linwei and Dou, Qi and Fletcher, P. Thomas and Speidel, Stefanie and Li, Shuo},
+  title={Joint Modeling of Image and Label Statistics for Enhancing Model Generalizability of Medical Image Segmentation},
+  booktitle={Medical Image Computing and Computer Assisted Intervention -- MICCAI 2022},
+  year={2022},
+  publisher={Springer Nature Switzerland},
+  address={Cham},
+  pages={360--369},
+  abstract={Although supervised deep-learning has achieved promising performance in medical image segmentation, many methods cannot generalize well on unseen data, limiting their real-world applicability. To address this problem, we propose a deep learning-based Bayesian framework, which jointly models image and label statistics, utilizing the domain-irrelevant contour of a medical image for segmentation. Specifically, we first decompose an image into components of contour and basis. Then, we model the expected label as a variable only related to the contour. Finally, we develop a variational Bayesian framework to infer the posterior distributions of these variables, including the contour, the basis, and the label. The framework is implemented with neural networks, thus is referred to as deep Bayesian segmentation. Results on the task of cross-sequence cardiac MRI segmentation show that our method set a new state of the art for model generalizability. Particularly, the BayeSeg model trained with LGE MRI generalized well on T2 images and outperformed other models with great margins, i.e., over 0.47 in terms of average Dice. Our code is available at https://zmiclab.github.io/projects.html.},
+  isbn={978-3-031-16443-9},
+  preview={bayeseg_miccai2022.png},
+  bibtex_show={true},
+  html={https://github.com/shangqigao/BayeSeg},
+}
+
+@InProceedings{Zhou_2021_CVPR,
+  author    = {Zhou, Hangqi and Huang, Chao and Gao, Shangqi and Zhuang, Xiahai},
+  title     = {VSpSR: Explorable Super-Resolution via Variational Sparse Representation},
+  booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
+  month     = {June},
+  year      = {2021},
+  pages     = {373-381},
+  doi       = {10.1109/CVPRW53098.2021.00047}
+}
+
+@article{GAO2020319,
+  title = {Robust approximations of low-rank minimization for tensor completion},
+  journal = {Neurocomputing},
+  volume = {379},
+  pages = {319-333},
+  year = {2020},
+  issn = {0925-2312},
+  doi = {https://doi.org/10.1016/j.neucom.2019.10.086},
+  url = {https://www.sciencedirect.com/science/article/pii/S0925231219315280},
+  author = {Shangqi Gao and Xiahai Zhuang},
+  keywords = {Tensor completion, Block coordinate descent, Nonconvex optimization, Iterative thresholding},
+  abstract = {Motivated by the nuclear norm of tensors and nonconvex approximations of matrix rank, we propose three robust approximations of multi-linear rank for tensor completion. For each method, we develop an efficient algorithm to solve the corresponding optimization problem. Besides, we prove that every cluster point of the sequence, generated by the respective algorithm, is a stationary point. To obtain a more robust reconstruction, we design an updating rule of parameters for each method. Our empirical experiments on real-world data show that the proposed methods deliver state-of-the-art performance in the reconstruction of low-rank tensors.},
+  preview={tensorcompletion_neurocomputing2020.png},
+  bibtex_show={true},
+  dimensions={true},
+  google_scholar_id={2osOgNQ5qMEC},
+  html={https://github.com/shangqigao/TensorCompletion}
+}
+
+@article{gao2020robust,
+  title={Robust Schatten-p norm based approach for tensor completion},
+  author={Gao, Shangqi and Fan, Qibin},
+  journal={Journal of Scientific Computing},
+  volume={82},
+  pages={1--23},
+  year={2020},
+  publisher={Springer},
+  abstract={The matrix nuclear norm has been widely applied to approximate the matrix rank for low-rank tensor completion because of its convexity. However, this relaxation may make the solution seriously deviate from the original solution for real-world data recovery. In this paper, using a nonconvex approximation of rank, i.e., the Schatten-p norm, we propose a novel model for tensor completion. It’s hard to solve this model directly because the objective function of the model is nonconvex. To solve the model, we develop a variant of this model via the classical quadric penalty method, and propose an algorithm, i.e., SpBCD, based on the block coordinate descent method. Although the objective function of the variant is nonconvex, we show that the sequence generated by SpBCD is convergent to a critical point. Our numerical experiments on real-world data show that SpBCD delivers state-of-art performance in recovering missing data.},
+  doi={https://doi.org/10.1007/s10915-019-01108-9},
+  preview={SpBCD_JSC2020.png},
+  bibtex_show={true},
+  dimensions={true},
+  google_scholar_id={u-x6o8ySG0sC},
+  html={https://github.com/shangqigao/TensorCompletion}
+}
+
+@article{GAO2019328,
+  title = {Robust balancing scheme-based approach for tensor completion},
+  journal = {Neurocomputing},
+  volume = {330},
+  pages = {328-336},
+  year = {2019},
+  issn = {0925-2312},
+  doi = {https://doi.org/10.1016/j.neucom.2018.11.033},
+  url = {https://www.sciencedirect.com/science/article/pii/S0925231218313614},
+  author = {Shangqi Gao and Qibin Fan},
+  keywords = {Tensor completion, Balancing scheme, Matching-pursuit},
+  abstract = {Firstly, we propose a balancing scheme called BS to obtain new matricizations for an unbalanced tensor, and develop an efficient algorithm, which employs the idea of Orthogonal-Matching-Pursuit, to implement the BS. Then, we propose a new model for tensor completion based on the BS, and develop an algorithm called BS-TMac, which is rooted from a well known algorithm TMac, to solve the proposed model. Finally, we test our algorithms on synthetic and real world data to show the robustness of the BS-based model in reconstruction for unbalanced tensors. The numerical experiments show that BS-TMac outperforms compared methods in recovery quality.},
+  preview={BS-TMac_neurocomputing2019.png},
+  bibtex_show={true},
+  dimensions={true},
+  google_scholar_id={9yKSN-GCB0IC},
+  html={https://github.com/shangqigao/TensorCompletion}
+}
+
+@article{Gao2018JSC,
+  author = {Gao, Shangqi and Fan, Qibin},
+  title = {A Mixture of Nuclear Norm and Matrix Factorization for Tensor Completion},
+  year = {2018},
+  issue_date = {April     2018},
+  publisher = {Plenum Press},
+  address = {USA},
+  volume = {75},
+  number = {1},
+  issn = {0885-7474},
+  url = {https://doi.org/10.1007/s10915-017-0521-9},
+  doi = {10.1007/s10915-017-0521-9},
+  abstract = {In this paper, we propose a mixture model for tensor completion by combining the nuclear norm with the low-rank matrix factorization. To solve this model, we develop two algorithms: non-smooth low-rank tensor completion (NS-LRTC), smooth low-rank tensor completion (S-LRTC). When the sampling rate (SR) is high, our experiments on real-world data show that the NS-LRTC algorithm outperforms other tested methods in running time and recovery quality. In addition, whatever the SR is, the proposed S-LRTC algorithm delivers state-of-art recovery performance compared with other tested approaches. Although the objective function in our model is non-convex and non-differentiable, we prove that every cluster point of the sequence generated by NS-LRTC or S-LRTC is a stationary point.},
+  journal = {J. Sci. Comput.},
+  pages = {43–64},
+  numpages = {22},
+  keywords = {Tensor completion, Nuclear norm, Matrix factorization, Block coordinate descent},
+  preview={S-LRTC_JSC2018.png},
+  bibtex_show={true},
+  dimensions={true},
+  google_scholar_id={u5HHmVD_uO8C},
+  html={https://github.com/shangqigao/TensorCompletion}
 }
