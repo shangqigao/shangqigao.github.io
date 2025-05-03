@@ -4,41 +4,41 @@ const ninja = document.querySelector('ninja-keys');
 // add the home and posts menu items
 ninja.data = [{
     id: "nav-about",
-    title: "about",
+    title: "About",
     section: "Navigation",
     handler: () => {
       window.location.href = "/";
     },
   },{id: "nav-publications",
-          title: "publications",
+          title: "Publications",
           description: "In reversed chronological order.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
           },
         },{id: "nav-repositories",
-          title: "repositories",
+          title: "Repositories",
           description: "Source code on my research works",
           section: "Navigation",
           handler: () => {
             window.location.href = "/repositories/";
           },
         },{id: "nav-cv",
-          title: "cv",
+          title: "CV",
           description: "Both success and failure will come into your life, no matter whether you make a mistake, just give yourself permission to be human",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
           },
         },{id: "nav-teaching",
-          title: "teaching",
+          title: "Teaching",
           description: "Lectures, Talks, and Presentations",
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";
           },
         },{id: "nav-people",
-          title: "people",
+          title: "People",
           description: "members of the lab",
           section: "Navigation",
           handler: () => {
@@ -71,16 +71,16 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-guest-lecture-on-image-processing-and-analysis-i-m-delighted-to-share-that-i-delivered-a-3-hour-lecture-to-the-international-students-participating-in-the-homerton-college-summer-programme-rather-than-focusing-on-ai-i-introduced-them-to-traditional-image-processing-and-analysis-it-was-my-first-time-giving-a-lecture-of-this-length-and-i-found-it-to-be-a-rewarding-challenge-i-m-grateful-to-mireia-crispin-and-homerton-college-at-the-university-of-cambridge-for-this-opportunity",
-          title: 'Guest lecture on Image Processing and Analysis 🌈🌈🌈 I’m delighted to share that,...',
+            },},{id: "news-miccai-sig-xmedia-thrilled-to-announce-we-establish-the-mccai-special-interest-group-on-explainable-ai-for-medical-image-analysis-sig-xmedia-i-am-serving-as-the-president-of-sig-xmedia-if-you-have-any-interest-in-xmedia-welcome-to-join-our-group",
+          title: 'MICCAI SIG-xMedIA 🚀🚀🚀 Thrilled to announce we establish the MCCAI Special Interest Group...',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-announcement-2",
+          title: 'Announcement_2',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
-            },},{id: "news-miccai-sig-xmedia-thrilled-to-announce-we-establish-the-mccai-special-interest-group-on-explainable-ai-for-medical-image-analysis-sig-xmedia-i-am-serving-as-the-president-of-sig-xmedia-if-you-have-any-interest-in-xmedia-welcome-to-join-our-group",
-          title: 'MICCAI SIG-xMedIA 🚀🚀🚀 Thrilled to announce we establish the MCCAI Special Interest Group...',
+            },},{id: "news-guest-lecture-on-image-processing-and-analysis-i-m-delighted-to-share-that-i-delivered-a-3-hour-lecture-to-the-international-students-participating-in-the-homerton-college-summer-programme-rather-than-focusing-on-ai-i-introduced-them-to-traditional-image-processing-and-analysis-it-was-my-first-time-giving-a-lecture-of-this-length-and-i-found-it-to-be-a-rewarding-challenge-i-m-grateful-to-mireia-crispin-and-homerton-college-at-the-university-of-cambridge-for-this-opportunity",
+          title: 'Guest lecture on Image Processing and Analysis 🌈🌈🌈 I’m delighted to share that,...',
           description: "",
           section: "News",},{
         id: 'social-github',
