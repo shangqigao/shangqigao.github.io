@@ -7,9 +7,11 @@ nav: true
 nav_order: 6
 ---
 
+---
 ### Projects
 - &#128640; Why Should I Trust You: Explainable AI for Cancer Imaging, DIS Master project, University of Cambridge, 2024-2025
 
+---
 ### Lectures
 - &#128214; Image Processing and Analysis, Guest lecturer, Homerton College, University of Cambridge, 2020
 - &#128214; Medical Image Analysis, Guest lecturer, Fudan University, 2020

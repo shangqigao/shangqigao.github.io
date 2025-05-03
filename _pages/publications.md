@@ -2,10 +2,12 @@
 layout: page
 permalink: /publications/
 title: Publications
-description:  Check the most up-to-date lists on <a href="https://scholar.google.com/citations?user=D-jg5rUAAAAJ&hl=en">Google Scholar</a>
+description:  Books, Journal and conference papers
 nav: true
 nav_order: 2
 ---
+
+You can find the most up-to-date list of my publications on [Google Scholar](https://scholar.google.com/citations?user=D-jg5rUAAAAJ&hl=en)
 
 <!-- _pages/publications.md -->
 
