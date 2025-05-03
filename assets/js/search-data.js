@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-publications",
           title: "Publications",
-          description: "Check the most up-to-date lists on [Google Scholar](https://scholar.google.com/citations?user=D-jg5rUAAAAJ&amp;hl=en)",
+          description: "Check the most up-to-date lists on Google Scholar",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
@@ -32,7 +32,7 @@ ninja.data = [{
           },
         },{id: "nav-teaching",
           title: "Teaching",
-          description: "Lectures, Talks, and Presentations",
+          description: "Courses, Projects, Lectures, Talks, and Presentations",
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";
