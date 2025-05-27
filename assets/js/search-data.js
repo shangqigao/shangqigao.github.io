@@ -101,6 +101,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_4/";
+            },},{id: "news-our-miccai-sig-xmedia-online-seminar-will-take-place-soon",
+          title: 'Our MICCAI SIG-xMedIA Online Seminar Will take place soon',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_9/";
             },},{
         id: 'social-github',
         title: 'GitHub',
