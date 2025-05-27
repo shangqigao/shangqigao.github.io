@@ -30,7 +30,7 @@ We especially encourage students and early career researchers to join [SIG-xMedI
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/news/miccai2023_MedIA_best_paper_award.png" title="SIG-xMedIA Online Seminar" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/news/sig-xmedia_first_online_seminar.png" title="SIG-xMedIA Online Seminar" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
