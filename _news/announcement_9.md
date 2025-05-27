@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Our MICCAI SIG-xMedIA Online Seminar Will take place soon
+title: Our MICCAI SIG-xMedIA Online Seminar is taking place!
 date: 2025-05-27
 inline: false
 related_posts: false
