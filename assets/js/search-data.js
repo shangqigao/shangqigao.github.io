@@ -101,7 +101,10 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_4/";
-            },},{id: "news-our-miccai-sig-xmedia-online-seminar-will-take-place-soon",
+            },},{id: "news-join-us-the-miccai-2025-care-challenge-is-live-welcome-to-participate-our-miccai-2025-care-challenge-toward-real-world-medical-image-analysis-we-provide-1300-cases-from-18-centers",
+          title: 'Join us—The MICCAI 2025 CARE Challenge is live! 🌈🌈🌈 Welcome to participate our...',
+          description: "",
+          section: "News",},{id: "news-our-miccai-sig-xmedia-online-seminar-will-take-place-soon",
           title: 'Our MICCAI SIG-xMedIA Online Seminar Will take place soon',
           description: "",
           section: "News",handler: () => {
