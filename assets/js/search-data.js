@@ -109,6 +109,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_9/";
+            },},{id: "news-four-of-our-papers-have-been-accepted-by-miccai2025",
+          title: 'Four of our papers have been accepted by MICCAi2025',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_11/";
             },},{
         id: 'social-github',
         title: 'GitHub',
