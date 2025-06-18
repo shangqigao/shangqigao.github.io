@@ -55,7 +55,7 @@ _Y. Gao et al., Learning Concept-Driven Logical Rules for Interpretable and Gene
     This paper was early accepted by MICCAI 2025 (top 9%)
 </div>
 
-### Combined image registration and classification
+### Combined image registration and segmentation
 
 _Y. Liu et al., BayeSMM: Robust Deep Combined Computing Tackling Heavy-tailed distribution in Medical Images_
 
