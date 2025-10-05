@@ -114,6 +114,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_11/";
+            },},{id: "news-our-paper-received-the-best-paper-award-at-miccai-amai-2025",
+          title: 'Our paper received the Best Paper Award at MICCAI AMAI 2025',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_12/";
             },},{
         id: 'social-github',
         title: 'GitHub',
