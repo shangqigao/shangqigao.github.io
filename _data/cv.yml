@@ -17,9 +17,6 @@
       description:
         - PhD Thesis, Deep Image Decomposition and Reconstruction, Defensed in 05/2022
         - Advisor, Prof. Xiahai Zhuang
-        - title: Deep Image Decomposition and Reconstruction
-          contents:
-            - This dissertation chronicles deep learning-based mathematical and statistical frameworks for solving inverse problems in photography and medical imaging as well as their applications in natural image super-resolution and medical image segmentation.
 
     - title: MSc in Applied Mathematics
       institution: Wuhan University, Wuhan, China
@@ -27,9 +24,6 @@
       description:
         - MSc Thesis, Regularization-Based Approaches for Tensor Completion, Defensed in 05/2018
         - Advisor, Prof. Qibin Fan
-        - title: Regularization-Based Approaches for Tensor Completion
-          contents:
-            - This dissertation chronicles regularization approaches for solving inverse problems in tensor completion as well as their applications in color images, color videos, and magnetic resonance images.
 
     - title: BSc in Applied Mathematics
       institution: Northwestern Polytechnical University, Xi'an, China
@@ -55,6 +49,9 @@
 - title: Honors and Awards
   type: time_table
   contents:
+    - year: 2025
+      items:
+        - Best Paper Award, MICCAI AMAI 2025
     - year: 2024
       items:
         - Shanghai Natural Science Award (2nd Prize), Shanghai Science and Technology Awards
@@ -84,6 +81,9 @@
     - title: Academic society
       items:
         - President, MICCAI Special Interest Group on Explainable AI for Medical Image Analysis, 2024 - now
+        - General Chair, Workshop on Interpretability of Machine Intelligence in Medical Image Computing at MICCAI 2025, Deajeon, South Korea
+        - Organizer, Challenge on Comprehensive Analysis & Computing of Real-world Medical Images at MICCAI 2025, Deajeon, South Korea
+        - Organizer, Challenge on Comprehensive Analysis & Computing of Real-world Medical Images at MICCAI 2024, Marrakesh, Morocco
     - title: Peer Review
       items:
         - Cancer Discovery

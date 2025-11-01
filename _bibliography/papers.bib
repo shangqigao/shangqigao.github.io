@@ -1,6 +1,38 @@
 ---
 ---
 
+@InProceedings{Gao2025miccai,
+  author={Gao, Shangqi and Gao, Shangde and Machado, Ines and Crispin-Ortuzar, Mireia},
+  editor={Gee, James C. and Alexander, Daniel C. and Hong, Jaesung and Iglesias, Juan Eugenio and Sudre, Carole H. and Venkataraman, Archana and Golland, Polina and Kim, Jong Hyo and Park, Jinah},
+  title={Probabilistic Integration of Renal Cancer Radiology and Pathology Using Graph Neural Networks},
+  booktitle={Medical Image Computing and Computer Assisted Intervention -- MICCAI 2025},
+  year={2025},
+  publisher={Springer Nature Switzerland},
+  address={Cham},
+  pages={564--573},
+  doi={10.1007/978-3-032-05162-2_54},
+  abstract={Kidney tumors can be highly heterogeneous from the microscopic to the macroscopic scale. To address this, we propose a sparsity-informed probabilistic integration of radiomics and pathomics for kidney cancer analysis. We construct radiology and pathology graphs to model spatial correlations, then use a probabilistic method and graph neural networks to identify biomarkers and aggregate spatial features. Our validation shows that this integrated approach significantly outperforms traditional methods in kidney survival analysis, achieving a notable improvement of 0.084 in the concordance index, enabling better prognostic assessments for kidney cancer patients. The source code has been released by https://github.com/shangqigao/RadioPath.},
+  preview={sparra_miccai2025.png},
+  bibtex_show={true},
+  html={https://github.com/shangqigao/RadioPath},
+  dimensions={true}
+}
+
+@InProceedings{liu2025towards,
+  author = {Liu, Ke and Gao, Shangde and Fu, Yichao and Gao, Shangqi},
+  title = {Towards Generalizable Retina Vessel Segmentation with Deformable Graph Priors},
+  booktitle = {The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+  month = {November},
+  year = {2025},
+  abstract={Retinal vessel segmentation is critical for medical diagnosis, yet existing models often struggle to generalize across domains due to appearance variability, limited annotations, and complex vascular morphology. We propose GraphSeg, a variational Bayesian framework that integrates anatomical graph priors with structure-aware image decomposition to enhance cross-domain segmentation. GraphSeg factorizes retinal images into structure-preserved and structure-degraded components, enabling domain-invariant representation. A deformable graph prior, derived from a statistical retinal atlas, is incorporated via a differentiable alignment and guided by an unsupervised energy function. Experiments on three public benchmarks (CHASE, DRIVE, HRF) show that GraphSeg consistently outperforms existing methods under domain shifts. These results highlight the importance of jointly modeling anatomical topology and image structure for robust generalizable vessel segmentation.},
+  selected={true},
+  url = {https://openreview.net/forum?id=zVkbsGlKn9},
+  html={https://github.com/AI4MOL/GraphSeg},
+  bibtex_show={true},
+  preview={graphseg_neurips2025.png},
+  dimensions={true}
+}
+
 @article{GAO2023102889,
   title = {BayeSeg: Bayesian modeling for medical image segmentation with interpretable generalizability},
   journal = {Medical Image Analysis},
@@ -211,7 +243,6 @@
   pages = {43–64},
   numpages = {22},
   keywords = {Tensor completion, Nuclear norm, Matrix factorization, Block coordinate descent},
-  selected={true},
   preview={S-LRTC_JSC2018.png},
   bibtex_show={true},
   dimensions={true},

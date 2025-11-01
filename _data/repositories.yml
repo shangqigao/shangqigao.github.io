@@ -2,6 +2,7 @@ github_users:
   - shangqigao
   - zzhwfy
   - obiyoag
+  - AI4MOL
 
 repo_description_lines_max: 2
 
@@ -12,3 +13,4 @@ github_repos:
   - shangqigao/BayeSeg
   - zzhwfy/VSpSR
   - obiyoag/BayeSeg
+  - AI4MOL/GraphSeg
