@@ -119,6 +119,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_12/";
+            },},{id: "news-our-paper-was-accepted-at-neurips2025",
+          title: 'Our paper was accepted at NeurIPS2025!',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_13/";
             },},{
         id: 'social-github',
         title: 'GitHub',
