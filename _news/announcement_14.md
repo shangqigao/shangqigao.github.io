@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Our paper was accepted at CVPR2026 and selected as oral presentation!
-date: 2025-10-30
+date: 2026-04-09
 inline: false
 related_posts: false
 ---
