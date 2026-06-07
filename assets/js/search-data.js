@@ -129,6 +129,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_14/";
+            },},{id: "news-our-paper-was-selected-as-cvpr2026-oral-presentation-and-award-candidate",
+          title: 'Our paper was selected as CVPR2026 oral presentation and Award Candidate!',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_15/";
             },},{
         id: 'social-github',
         title: 'GitHub',
