@@ -7,13 +7,13 @@ first_name: Shangqi
 middle_name:
 last_name: Gao
 contact_note: >
-  You can quickly reach me by LinkedIn.
+  The quickest way to reach me is via LinkedIn.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Shangqi Gao is a University of Cambridge researcher working on explainable AI, Bayesian deep learning, medical imaging, and multimodal cancer analysis.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
+keywords: Shangqi Gao, medical imaging, explainable AI, Bayesian deep learning, cancer research, multimodal learning # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
