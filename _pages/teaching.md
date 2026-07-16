@@ -3,7 +3,7 @@ layout: page
 permalink: /teaching/
 title: Teaching
 description: Courses, Projects, Lectures, Talks, and Presentations
-nav: true
+nav: false
 nav_order: 6
 ---
 

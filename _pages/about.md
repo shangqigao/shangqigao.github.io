@@ -38,6 +38,6 @@ Previously, I was a Postdoctoral Research Assistant at the University of Oxford,
 
 My work has received the [Elsevier–MedIA First Prize and MICCAI 2023 Medical Image Analysis Best Paper Award](/news/announcement_6/) and the [MICCAI AMAI 2025 Best Paper Award](/news/announcement_12/). It has also been recognized as a MICCAI 2022 Best Paper Finalist and a [CVPR 2026 Best Paper Award Candidate](/news/announcement_15/). I serve as president of [MICCAI SIG-xMedIA](https://miccai.org/index.php/special-interest-groups/sig-xmedia/), the Special Interest Group on Explainable AI for Medical Image Analysis.
 
-I welcome collaborations in trustworthy medical AI, computational pathology, and multimodal cancer research. You can find my work through the professional profiles below or view my [publications](/publications/) and [CV](/cv/).
+I welcome collaborations in explainable medical AI, medical image analysis, and multimodal cancer research. You can find my work through the professional profiles below or view my [publications](/publications/) and [CV](/cv/).
 
 I serve as a reviewer for _IEEE Transactions on Pattern Analysis and Machine Intelligence_, _Cancer Discovery_, _Nature Communications_, _IEEE Transactions on Image Processing_, _Medical Image Analysis_, _IEEE Transactions on Medical Imaging_, _IEEE Transactions on Neural Networks and Learning Systems_, _Neural Networks_, NeurIPS, ACM MM, CVPR, ICCV, ECCV, and MICCAI.
