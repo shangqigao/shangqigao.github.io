@@ -57,10 +57,7 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-our-paper-was-accepted-by-ieee-transactions-on-image-processing-wonderful-our-paper-indeed-interpretable-image-deep-decomposition-with-grounded-generalizability-has-been-accepted-and-published-online-by-ieee-transactions-on-image-processing",
-          title: 'Our paper was accepted by IEEE Transactions on Image Processing Wonderful ❗❗❗ Our...',
-          description: "",
-          section: "News",},{id: "news-our-paper-has-been-selected-to-be-highligted-in-the-miccai-2022-special-issue-in-medical-image-analysis-wonderful-our-conference-paper-joint-modeling-of-image-and-label-statistics-for-enhancing-model-generalizability-of-medical-image-segmentation-has-been-selected-as-one-of-the-best-papers-of-miccai-2022-to-be-highligted-in-the-miccai-2022-special-issue-in-medical-image-analysis-thanks-to-the-contributions-of-hangqi-zhou-and-yibo-gao",
+            },},{id: "news-our-paper-has-been-selected-to-be-highligted-in-the-miccai-2022-special-issue-in-medical-image-analysis-wonderful-our-conference-paper-joint-modeling-of-image-and-label-statistics-for-enhancing-model-generalizability-of-medical-image-segmentation-has-been-selected-as-one-of-the-best-papers-of-miccai-2022-to-be-highligted-in-the-miccai-2022-special-issue-in-medical-image-analysis-thanks-to-the-contributions-of-hangqi-zhou-and-yibo-gao",
           title: 'Our paper has been selected to be highligted in the MICCAI 2022 Special...',
           description: "",
           section: "News",},{id: "news-i-got-a-postdoctoral-research-assistant-position-in-university-of-oxford-thanks-to-prof-clare-verrill-i-got-an-offer-on-postdoctoral-research-assistant-in-computational-pathology-i-look-forward-to-joining-university-of-oxford-and-doing-a-project-on-urological-cancer-pathology-ai-beyond-prostate",
@@ -123,7 +120,10 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_15/";
-            },},{
+            },},{id: "news-our-paper-was-accepted-by-ieee-transactions-on-image-processing-wonderful-our-paper-indeed-interpretable-image-deep-decomposition-with-grounded-generalizability-has-been-accepted-and-published-online-by-ieee-transactions-on-image-processing",
+          title: 'Our paper was accepted by IEEE Transactions on Image Processing Wonderful ❗❗❗ Our...',
+          description: "",
+          section: "News",},{
         id: 'social-github',
         title: 'GitHub',
         section: 'Socials',
