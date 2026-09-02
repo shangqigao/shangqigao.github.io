@@ -30,11 +30,11 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-500-server-error",
+        },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
         
-          title: '500 Server Error <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+          title: 'Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
         
-        description: "",
+        description: "We’re sharing updates across our Gemini family of models and a glimpse of Project Astra, our vision for the future of AI assistants.",
         section: "Posts",
         handler: () => {
           
@@ -57,7 +57,10 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-our-paper-has-been-selected-to-be-highligted-in-the-miccai-2022-special-issue-in-medical-image-analysis-wonderful-our-conference-paper-joint-modeling-of-image-and-label-statistics-for-enhancing-model-generalizability-of-medical-image-segmentation-has-been-selected-as-one-of-the-best-papers-of-miccai-2022-to-be-highligted-in-the-miccai-2022-special-issue-in-medical-image-analysis-thanks-to-the-contributions-of-hangqi-zhou-and-yibo-gao",
+            },},{id: "news-our-paper-was-accepted-by-ieee-transactions-on-image-processing-wonderful-our-paper-indeed-interpretable-image-deep-decomposition-with-grounded-generalizability-has-been-accepted-and-published-online-by-ieee-transactions-on-image-processing",
+          title: 'Our paper was accepted by IEEE Transactions on Image Processing Wonderful ❗❗❗ Our...',
+          description: "",
+          section: "News",},{id: "news-our-paper-has-been-selected-to-be-highligted-in-the-miccai-2022-special-issue-in-medical-image-analysis-wonderful-our-conference-paper-joint-modeling-of-image-and-label-statistics-for-enhancing-model-generalizability-of-medical-image-segmentation-has-been-selected-as-one-of-the-best-papers-of-miccai-2022-to-be-highligted-in-the-miccai-2022-special-issue-in-medical-image-analysis-thanks-to-the-contributions-of-hangqi-zhou-and-yibo-gao",
           title: 'Our paper has been selected to be highligted in the MICCAI 2022 Special...',
           description: "",
           section: "News",},{id: "news-i-got-a-postdoctoral-research-assistant-position-in-university-of-oxford-thanks-to-prof-clare-verrill-i-got-an-offer-on-postdoctoral-research-assistant-in-computational-pathology-i-look-forward-to-joining-university-of-oxford-and-doing-a-project-on-urological-cancer-pathology-ai-beyond-prostate",
